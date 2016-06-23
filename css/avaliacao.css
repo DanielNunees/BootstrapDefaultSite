@@ -1,0 +1,195 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+
+    background: url('../img/sis_cover.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 0 5px #fff;
+    color: #fff;
+    font-size: 50px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+.sub-text{
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}
+
+footer {
+    margin-top: 250px;
+}
+
+a{
+    font-size: 16px;
+}
+
+.padding{
+    padding-right: 20px;
+    padding-left:20px;
+    padding-top: 10px;
+}
+
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.white{
+    background-color: #fff;
+    color: black;
+}
+
+.color-test{
+   background-color:#101010;
+}
+
+.side-bar-color{
+   background-color:#3c3d41;
+}
+.no-padding{
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+
+.panel-primary {
+  border-color: #2e353d;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #2e353d;
+  border-color: #337ab7;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #337ab7;
+}
+.panel-primary > .panel-heading .badge {
+  color: #000;
+  background-color: #fff;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #337ab7;
+}
+
+/*new Footer*/
+
+.full {
+    width: 100%;  
+}
+.gap {
+  height: 30px;
+  width: 100%;
+  clear: both;
+  display: block;
+}
+.footer {
+  background: #3c3d41;
+  height: auto;
+  
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #DDDDDD;
+}
+.footer p {
+  margin: 0;
+}
+.footer img {
+  max-width: 100%;
+}
+.footer h4 {
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 40px 0 10px;
+  text-transform: uppercase;
+}
+.footer ul {
+  font-size: 13px;
+  border-right: 1px solid #BAC1C8;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 15px;
+  color: #fff;
+}
+.footer ul li a {
+  padding: 0 0 5px 0;
+  display: block;
+
+}
+.footer a {
+  color: #fff
+}
+.supportLi h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: normal;
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+  background: #FFFFFF;
+  display: inline-block;
+  float: left;
+  height: 30px;
+  clear: both;
+  width: 100%;
+}
+.newsletter-box .btn {
+  border: medium none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  height: 40px;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+}
+.newsletter-box {
+  overflow: hidden;
+}
+.bg-gray {
+  background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+  box-shadow: 0 1px 0 #B4B3B3;
+}
+
+/*side-bar*/
+
+.nav-sidebar { 
+    width: 100%;
+    background-color: #3c3d41;
+    height: 100%;
+}
+li a{
+  color: black
+}
